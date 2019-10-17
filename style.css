@@ -1,0 +1,88 @@
+body {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background:url('background.jpg')  center center;
+	
+}
+
+
+
+
+.icon{
+	position: absolute;
+	transform: translate(5%, 5%);
+	background: url('icon.svg') no-repeat;
+}
+.front {
+   position: absolute;
+   width: 500px;
+   height: 500px;
+   background: url('clock_front_face.svg') 50% 50% no-repeat;
+   top:-10px;
+   z-index: 4;
+   
+}
+.back {
+   position: relative;
+   width: 500px;
+   height: 500px;
+   background: url('clock_back_face.svg') 50% 50% no-repeat;
+   z-index: 0;
+   left:50%;
+   top:40%;
+   transform: translate(-50%, -50%);
+   
+}
+
+
+
+.sec-hand {
+   position: absolute;
+   background: url('sec.svg') 50% 50% no-repeat;
+   -webkit-transform-origin: 50% 90%;
+   transform-origin: 50% 90%;
+   top: 0;
+   left: 50%;
+   margin-left: -7px;
+   width: 34px;
+   height: 270px;
+   z-index: 3;
+
+}
+
+
+.min-hand {
+   position: absolute;
+   background: url('min.svg') 50% 50% no-repeat;
+   -webkit-transform-origin: 50% 90%;
+   transform-origin: 50% 95%;
+   top: 0;  
+   left: 50%;
+   margin-left: -8px;
+   width: 34px;
+   height: 270px;
+   z-index: 2;
+
+}
+
+
+
+.hour-hand {
+   position: absolute;
+   background: url('hour.svg') 50% 50% no-repeat;
+   -webkit-transform-origin: 50% 90%;
+   transform-origin: 50% 95%;
+   top: 0;
+   left: 50%;
+   margin-left: -7px;
+   width: 34px;
+   height: 270px;
+   
+   z-index: 1;
+
+}
+
+
+
