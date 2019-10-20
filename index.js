@@ -8,7 +8,7 @@ function tick() {
 	var hours = date.getHours();
 	var day = date.getDate();
 	   
-   if (minutes=57 && seconds==0 ){
+   if (minutes==57 && seconds==0 ){
 		if (myAudio.paused) myAudio.play();
    }
    
