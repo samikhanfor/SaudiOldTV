@@ -8,7 +8,9 @@ function tick() {
 	var hours = date.getHours();
 	var day = date.getDate();
 	   
-   if (minutes==58 && seconds==1 ) return myAudio.play().catch(function() {console.log("not playing");});
+   if (minutes=57 && seconds==0 ){
+		if (myAudio.paused) myAudio.play();
+   }
    
    var secAngle = seconds * 6;
    var minAngle = minutes * 6 + seconds * (360/3600);

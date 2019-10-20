@@ -20,17 +20,6 @@
   <defs
      id="defs918">
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient850"
-       id="linearGradient844-0"
-       x1="92.171577"
-       y1="147.2861"
-       x2="222.84856"
-       y2="214.68628"
-       gradientUnits="userSpaceOnUse"
-       spreadMethod="reflect"
-       gradientTransform="matrix(0.63775981,0,0,0.60565781,-115.93319,-78.460622)" />
-    <linearGradient
        id="linearGradient850"
        inkscape:collect="always">
       <stop
@@ -42,6 +31,17 @@
          offset="1"
          style="stop-color:#161912;stop-opacity:1" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient850"
+       id="linearGradient844"
+       x1="67.279762"
+       y1="143.54166"
+       x2="200.32738"
+       y2="143.54167"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       gradientTransform="matrix(0.63775981,0,0,0.60565781,-115.93322,-78.460652)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-172.3964"
-     inkscape:cy="-340.13288"
+     inkscape:zoom="1.4"
+     inkscape:cx="301.69419"
+     inkscape:cy="144.25249"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,11 +83,11 @@
      id="layer1"
      transform="translate(94.237976,46.923174)">
     <ellipse
-       ry="52.881508"
-       rx="55.684406"
-       cy="5.9583335"
+       style="display:inline;opacity:1;fill:url(#linearGradient844);fill-opacity:1;stroke:none;stroke-width:0.06215016;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path817"
        cx="-38.55357"
-       id="ellipse1339"
-       style="display:inline;opacity:1;fill:url(#linearGradient844-0);fill-opacity:1;stroke:none;stroke-width:0.06215016;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       cy="5.9583416"
+       rx="55.684406"
+       ry="52.881508" />
   </g>
 </svg>
