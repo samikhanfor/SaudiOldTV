@@ -4,7 +4,7 @@ body {
   height: 100%;
   background-color: black;
   background:url('background.jpg')  center center;
-	
+	overflow:hidden
 }
 
 
@@ -22,9 +22,22 @@ body {
    height: 500px;
    background: url('clock_front_face.svg') 50% 50% no-repeat;
    top:-10px;
+   
    z-index: 4;
    
 }
+
+.ksaword {
+   position: absolute;
+   width: 400px;
+   height: 100px;
+   background: url('ksaword.svg') 50% 50% no-repeat;
+   transform-origin: 50% 50%;
+   transform: translate(15%, 480px);
+   z-index: 1;
+   
+}
+
 .back {
    position: relative;
    width: 500px;
