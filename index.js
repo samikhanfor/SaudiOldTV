@@ -14,7 +14,7 @@ function tick() {
    
    var secAngle = seconds * 6;
    var minAngle = minutes * 6 ;
-   var hourAngle = hours * 30 ;
+   var hourAngle = hours * 30 + minutes * (360/720) ;
    
    
    $('.sec-hand').css('transform', 'rotate(' + secAngle + 'deg)');
